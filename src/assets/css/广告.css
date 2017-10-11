@@ -1,0 +1,35 @@
+/*横向通栏图片广告*/
+.ad-line{overflow:hidden; margin-top:10px;}
+.ad-line img{width:100%;}
+
+/*推广*/
+.ad-txt-line{width:100%; height:45px; line-height:45px; background:#FAFAFA;}
+.ad-txt-line em{font-size:1.2rem; color:#999; height:14px; line-height:14px; border:1px solid #999; border-radius:2px; padding:1px 4px; display:inline-block; margin:0 8px 0 15px; vertical-align:1px;}
+.ad-txt-line a{display:inline-block; font-size:1.4rem; color:#666;}
+.ad-txt-line strong{color:#dd2727;}
+
+/*顶部&底部下载广告*/
+.ad-app{width:100%; height:53px; background:#F5F7FB; overflow:hidden;}
+.ad-app-top{border-bottom:1px solid #F5F7FB; margin:0; padding:0;}
+.ad-app-fixed{border-top:1px solid #F5F7FB; position:fixed; left:0; bottom:0; opacity:0.95; z-index:98; margin:0; padding:0;}
+.ad-app .ad-close{width:11px; height:11px; background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ad_app_top_close.png) no-repeat; background-size:11px auto; float:left; text-indent:-999em; margin:20px 0 0 15px;}
+.ad-app img{width:40px; height:40px; display:block; float:left; margin:7px 0 0 15px;}
+.ad-app dl{float:left; margin:8px 0 0 10px;}
+.ad-app dt{font-size:1.5rem; line-height:21px;}
+.ad-app dd{font-size:1.2rem; color:#666;}
+.ad-app .ad-btn-download{width:68px; height:23px; line-height:23px; border:1px solid #508CEE; color:#508CEE; text-align:center; border-radius:3px; float:right; font-size:1.2rem; margin:14px 15px 0 0;}
+	/*新增a标签*/
+.ad-app .ad-app-rel{width:100%; height:100%; position:relative;}
+.ad-app .ad-app-rel .aBlock{position:relative; z-index:1; display:block; width:100%; height:100px;}
+.ad-app .ad-app-rel img{margin-left:40px;}
+.ad-app .ad-close2{width:11px; height:11px; background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ad_app_top_close.png) no-repeat; background-size:11px auto; text-indent:-999em; position:absolute; top:20px; left:15px; z-index:2;}
+
+
+/*首页全屏广告*/
+.gg-index-mask{width:100%; height:100%; background:rgba(0,0,0,0.6); position:fixed; top:0; left:0; z-index:9999;}
+.gg-index-outer a{display:block;}
+.gg-index-outer img{display:block; position:fixed; top:50%; left:50%; -webkit-transform:translate(-50%,-50%); transform:translate(-50%,-50%); width:270px; height:375px; border-radius:4px; z-index:10001;}
+.gg-index-btn-close{/*width:30px;height:30px;background:url(http://image.bitautoimg.com/uimg/mbt2015/images/ico_gg_close.png) no-repeat;background-size:30px auto;position:fixed;top:50%;left:50%;text-indent:-999em;margin:-202px 0 0 118px;*/width:35px; height:35px; background:url(http://image.bitautoimg.com/uimg/mbt2016/images/wx_popup_close.png) no-repeat center center; background-size:35px auto; position:absolute; bottom:50%; left:50%; text-indent:-999em; margin:0px 0 -230px -17px; z-index:10002;}
+.gg-index-w100 img{width:100%; height:auto;border-radius:0;}
+/*.gg-index-w100 .gg-index-btn-close{margin:-123px 0 0 80px;}*/
+

@@ -1,0 +1,252 @@
+.cBlue{color:#508CEE;}
+.news-lists{background:#FFF; padding:0 15px;}
+.news-lists li{border-bottom:1px solid #F5F7FB; overflow:hidden; padding:15px 0; position:relative;}
+.news-lists a{
+	box-sizing:border-box;
+	display:table;
+	overflow:hidden;
+}
+.news-lists .img-box{
+	width:33.3333%; 
+	display:table-cell;
+}
+.news-lists .con-box{
+	display:table-cell;
+	position:relative; 
+	min-height:73px;
+	vertical-align:top;
+	padding-right:10px;
+}
+/*.news-lists a{
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+}
+.news-lists .img-box{
+	width:33.3333%; 
+	-webkit-box-flex:0 0 auto;
+	-webkit-flex:0 0 auto;
+	flex:0 0 auto;
+	margin-left:10px;
+}
+.news-lists .con-box{
+	-webkit-box-flex:1 1 auto; 
+	-webkit-flex:1 1 auto; 
+	flex:1 1 auto; 
+	position:relative; 
+	min-height:73px;
+	display:block;
+}*/
+
+.news-lists .con-box h4{font-size:1.8rem; line-height:25px; display:-webkit-box; overflow:hidden; text-overflow:ellipsis; -webkit-line-clamp:2; -webkit-box-orient:vertical; margin-bottom:2px; font-weight:normal; padding:0;}
+.news-lists .con-box h4::after{display:none;}
+.news-lists .con-box em{color:#999; box-sizing:border-box; font-size:1.2rem; line-height:18px; position:absolute; bottom:0; width:100%;}
+.news-lists .con-box span, .news-lists .news-img-list em span{float:left; margin-right:10px; height:15px;}
+.news-lists .con-box span.name, .news-lists .news-img-list em span.name{max-width:70px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; margin-right:10px;}
+.news-lists .con-box i.ico-comment, .news-lists .news-img-list i.ico-comment{background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ico_m_comment.png) no-repeat 0 2px; background-size:14px auto; padding:0 0 0 18px; margin-right:0; float:right;}
+
+.news-lists h4.h25{font-size:1.8rem; height:25px;overflow:hidden;text-overflow:ellipsis; white-space:nowrap; line-height:24px; margin-bottom:7px;}
+.news-lists .news-img-list a{display:block;}
+.news-lists .news-img-list ul{overflow:hidden; margin:6px 0 13px;}
+.news-lists .news-img-list li:first-child{border: none!important;}
+.news-lists .news-img-list li{border:none; padding:0; margin:0; float:left;width:33.3333%;}
+.news-lists .news-img-list ul span{display:block; padding:0 1px;}
+.news-lists .news-img-list em{color:#999; font-size:1.2rem; line-height:18px;}
+
+.news-lists .news-img-list p{color:#999; font-size:1.4rem; line-height:20px; margin:0 0 8px; position:relative;}
+.news-lists .news-img-list p img{margin:7px 0 12px;}
+
+.news-lists .ico-look{background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ico_index_allpic.png) no-repeat -138px -145px; background-size:150px auto; padding-left:18px;}
+.news-lists .ico-ad{font-size:1.2rem; border:1px solid #dedede; color:#999; height:auto !important; float:none !important; padding:0 2px; border-radius:1px;}
+
+.news-lists .news-img-video p i{width:50px;height:50px;background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ico_index_video.png) no-repeat;background-size:50px auto;position:absolute;top:50%;left:50%;margin-left:-25px;margin-top:-25px;}
+.news-lists .news-img-video p sub{height:18px; line-height:18px; background:rgba(0,0,0,0.5); padding:0 5px; font-size:1.2rem; color:#FFF; position:absolute; right:0; bottom:0;}
+.news-lists .news-img-video p sub.blue{background:#47cbdb; padding:0 6px; top:0; left:0; right:auto;}
+
+.news-lists .news-img-zhibo p i{width:50px;height:50px;background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ico_index_zhibo.png) no-repeat;background-size:50px auto;position:absolute;top:50%;left:50%;margin-left:-25px;margin-top:-25px;}
+.news-lists .news-img-zhibo p sub{width:57px; height:20px; line-height:20px; background:#ff4f53; color:#FFF; font-size:1.2rem; position:absolute; top:0; left:0; text-align:center;}
+.news-lists .news-img-zhibo p sub.blue{width:auto; background:#47cbdb; padding:0 6px;}
+.news-lists .news-img-zhibo p em{width:18px; height:18px; background:url(http://image.bitautoimg.com/uimg/mbt2016/images/ico_index_zhibo_donghua.gif) no-repeat; background-size:18px auto; position:absolute; top:10px; right:10px;}
+
+.news-lists .news-imgs{overflow:hidden; margin:7px 0 12px;}
+.news-lists .news-left{float:left; width:66.5%; position:relative;}
+.news-lists .news-left::after{content:''; width:3px; height:100%; border-right:3px solid #FFF; position: absolute; top:0; right:0; z-index:10;}
+.news-lists .news-right{float:right; width:33.5%;}
+.news-lists .news-right-top{position:relative;}
+.news-lists .news-right-top::after{content:''; width:100%; height:1px; border-bottom:1px solid #FFF; position: absolute; bottom:0; right:0; z-index:10;}
+.news-lists .news-right-bottom{position:relative;}
+.news-lists .news-right-bottom::after{content:''; width:100%; height:2px; border-top:2px solid #FFF; position: absolute; top:0; right:0; z-index:10;}
+.news-lists .news-img-num{width:100%; height:100%; z-index:9; background:rgba(0,0,0,0.2); position:absolute; bottom:0; left:0; color:#FFF; font-size:1.4rem; text-align:center;}
+.news-lists .news-img-num span{-webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%); position:absolute; top:50%; left:50%;}
+/*.news-lists .news-imgs{overflow:hidden; margin:5px 0;}
+.news-lists .news-imgs img{min-width:100%; min-height:100%; position:absolute; top:50%; left:50%; -webkit-transform:translate(-50%, -50%); transform:translate(-50%, -50%);}
+.news-lists .news-left{float:left; width:66.5%; position:relative;}
+.news-lists .news-left::after{content:''; width:3px; height:100%; border-right:3px solid #FFF; position: absolute; top:0; right:0; z-index:10;}
+.news-lists .news-right{float:right; width:33.5%;}
+.news-lists .news-right-top{position:relative;}
+.news-lists .news-right-bottom{position:relative;}
+.news-lists .news-left::before, .news-lists .news-right-top::before, .news-lists .news-right-bottom::before{content:''; padding-top:66.666667%; display:block;}*/
+
+	/*ad*/
+.news-lists .ad-line-box{overflow:visible;}
+.news-lists .ad-line{margin:-15px;}
+.news-lists .ad-line a{display:block !important;}
+.news-lists ins .con-box em{transform:scale(0.875); left:-14px; bottom:-2px;}
+
+	/*无图*/
+.news-lists .news-nopic .con-box{width:100%; height:73px;}
+
+	/*正文页*/
+.news-lists-zhengwen ul{border-top:1px solid #F5F5F5;}
+
+	/*推荐车型*/
+.news-lists .tuijian-scroll{padding-bottom:0; overflow:visible;}
+/*.news-lists .tuijian-scroll h6{font-size:1.4rem; color:#999; margin-top:-5px;}*/
+.news-lists .tuijian-scroll h6{font-size:1.8rem; color:#333; margin-top:0;}
+.news-lists .cainixihuan{margin:10px -15px 0 -15px;}
+	
+	/*不感兴趣*/
+.news-lists .icon-close{width:20px; height:20px; position:absolute; bottom:11px; right:31vw; color:#ACACAC; font-size:12px;}
+.news-lists .icon-close::before{display:inline-block; -webkit-transform:scale(0.75); transform:scale(0.75); position:absolute; top:4px; left:4px;}
+.news-lists .news-nopic .icon-close, .news-lists .news-img-list .icon-close{right:0;}
+
+.pop-del-news-mask{width:100%; height:100%; background:rgba(0,0,0,0.2); position:fixed; top:0; left:0; z-index:1000;}
+.pop-del-news{height:auto; position:absolute; right:20px; background:#FFF; z-index:1001; border-radius:2px; padding:20px; width:135px; height:auto;
+}
+.pop-del-news-top{
+	-webkit-animation:.15s popDelTop forwards;
+	animation:.15s popDelTop forwards;
+}
+.pop-del-news-top::after{
+	content:''; width:0; height:0; border:solid; border-width:0 0 7px 7px; border-color:transparent transparent #fff transparent; position:absolute; top:-6px; right:0;}
+.pop-del-news-bottom{
+	-webkit-animation:.15s popDelBottom forwards;
+	animation:.15s popDelBottom forwards;
+}
+.pop-del-news-bottom::after{
+	content:''; width:0; height:0; border:solid; border-width:0 7px 7px 0; border-color:transparent #fff transparent transparent; position:absolute; bottom:-6px; right:0;}
+.pop-del-news ul{text-align:center; font-size:1.4rem;}
+.pop-del-news ul li{margin-top:10px;}
+.pop-del-news ul li:first-child{margin:0;}
+.pop-del-news ul li a{display:block; width:133px; height:33px; line-height:33px; border:1px solid #EAEEF5; border-radius:2px; color:#666; overflow:hidden;
+    text-overflow:ellipsis; white-space:nowrap;}
+
+  /*清除新闻条目*/
+.news-lists .del-news-item{
+  -webkit-animation:0.5s delNews ease forwards;
+  animation:0.5s delNews ease forwards;
+}
+
+@-webkit-keyframes popDelTop {
+  0% {
+    -webkit-transform:scale(0);
+    -webkit-transform-origin:right top;
+  	transform:scale(0);
+  	transform-origin:right top;
+  }
+  90% {
+    -webkit-transform:scale(1.1);
+    -webkit-transform-origin:right top;
+  	transform:scale(1.1);
+  	transform-origin:right top;
+  }
+  100% {
+    -webkit-transform:scale(1);
+    -webkit-transform-origin:right top;
+  	transform:scale(1);
+  	transform-origin:right top;
+  }
+}
+@keyframes popDelTop {
+  0% {
+    -webkit-transform:scale(0);
+    -webkit-transform-origin:right top;
+  	transform:scale(0);
+  	transform-origin:right top;
+  }
+  90% {
+    -webkit-transform:scale(1.1);
+    -webkit-transform-origin:right top;
+  	transform:scale(1.1);
+  	transform-origin:right top;
+  }
+  100% {
+    -webkit-transform:scale(1);
+    -webkit-transform-origin:right top;
+  	transform:scale(1);
+  	transform-origin:right top;
+  }
+}
+
+@-webkit-keyframes popDelBottom {
+  0% {
+  	-webkit-transform:scale(0);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(0);
+    transform-origin:right bottom;
+  }
+  90% {
+  	-webkit-transform:scale(1.05);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(1.05);
+    transform-origin:right bottom;
+  }
+  100% {
+  	-webkit-transform:scale(1);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(1);
+    transform-origin:right bottom;
+  }
+}
+@keyframes popDelBottom {
+  0% {
+  	-webkit-transform:scale(0);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(0);
+    transform-origin:right bottom;
+  }
+  90% {
+  	-webkit-transform:scale(1.05);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(1.05);
+    transform-origin:right bottom;
+  }
+  100% {
+  	-webkit-transform:scale(1);
+  	-webkit-transform-origin:right bottom;
+    transform:scale(1);
+    transform-origin:right bottom;
+  }
+}
+
+@-webkit-keyframes delNews{
+  0% {
+    height:auto;
+  }
+  100% {
+    height:0;
+    padding:0;
+    opacity:0;
+  }
+}
+@keyframes delNews{
+  0% {
+    height:auto;
+  }
+  100% {
+    height:0;
+    padding:0;
+    opacity:0;
+  }
+}
+
+
+
+/*320px*/
+@media only screen and (max-device-width:320px) {
+    .news-lists .con-box{min-height:65px;}
+    .news-lists .con-box h4, .news-lists h4.h25{font-size:1.6rem; line-height:22px;}
+    .news-lists .con-box span.name, .news-lists .news-img-list em span.name{max-width:50px;}
+}
