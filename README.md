@@ -1,15 +1,18 @@
 # newlist
 
-> A Vue.js project
+> newlist project
 
 ## Build Setup
 
 ``` bash
-# install dependencies
+
+# 安装项目
+
 npm install
 
-# serve with hot reload at localhost:8080
+# 开发环境运行项目  服务器地址：localhost:8080
 npm run dev
 
-# build for production with minification
+# 生产环境运行项目
+
 npm run build
